@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    padding: 30px 0;
+    position: fixed;
+    z-index: 2;
+
+}
+.navbar__title{
+    background-color: aqua;
+}
+.navbar__list{
+    display: flex;
+    background-color: aqua;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 8px;
+}
+header{
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+header > div {
+    width: 300px;
+    height: 400px;
+    background-color: chocolate;
+    margin-top: 100px;
+}
+.div{
+    width: 100%;
+    height: 300px;
+    background-color: darkgreen;
+}
+.fixed{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.fixed > div {
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+}
+.fixed2{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.fixed2 > div{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.border {
+    background-color: chartreuse;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.border > div{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.radius{
+    border-radius: 50%;
+}
+.dowload {
+    width: 100%;
+    background-color: darkgreen;
+    padding: 100px;
+    display: flex;
+}
+.dowload > div{
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+}
+.dow{
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;left: 5px;
+    z-index: 1;
+}
+.play {
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.play1 {
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+.play1 > div{
+    width: 300px;
+    height: 60px;
+    background-color: black;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
